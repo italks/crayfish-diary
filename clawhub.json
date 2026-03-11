@@ -1,0 +1,31 @@
+{
+  "name": "crayfish-diary",
+  "version": "1.0.0",
+  "displayName": "龙虾日记",
+  "description": "快速记录日记、备忘内容的技能，自动按年月日组织目录结构",
+  "author": "italks",
+  "license": "MIT",
+  "keywords": [
+    "日记",
+    "备忘",
+    "记录",
+    "markdown"
+  ],
+  "categories": [
+    "productivity",
+    "note-taking"
+  ],
+  "triggers": [
+    "帮我记一下",
+    "结束记录"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/italks/crayfish-diary.git"
+  },
+  "readme": "README.md",
+  "icon": "crayfish_icon.svg",
+  "engines": {
+    "workbuddy": ">=1.0.0"
+  }
+}
