@@ -90,8 +90,8 @@ The skill can be configured through `clawhub.json`:
 
 - **Skill Name**: crayfish-diary
 - **Triggers**: 
-  - Start: "帮我记一下"
-  - End: "结束记录"
+  - Start: "帮我记一下", "help me record", "start recording"
+  - End: "结束记录", "end recording", "finish recording"
 - **File Format**: Markdown (.md)
 - **Script Language**: Python 3
 

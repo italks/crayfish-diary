@@ -98,8 +98,13 @@ git push
 
 ## 触发命令
 
+**中文**：
 - 开始记录: "帮我记一下"
 - 结束记录: "结束记录"
+
+**English**：
+- Start recording: "help me record", "start recording"
+- End recording: "end recording", "finish recording"
 
 ## 功能特性
 

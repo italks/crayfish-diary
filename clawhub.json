@@ -1,15 +1,16 @@
 {
   "name": "crayfish-diary",
   "version": "1.0.0",
-  "displayName": "龙虾日记",
-  "description": "快速记录日记、备忘内容的技能，自动按年月日组织目录结构",
+  "displayName": "Crayfish Diary",
+  "description": "A WorkBuddy skill for quick diary and memo recording with automatic year/month/day directory organization. Start recording with '帮我记一下' and end with '结束记录'.",
   "author": "italks",
   "license": "MIT",
   "keywords": [
-    "日记",
-    "备忘",
-    "记录",
-    "markdown"
+    "diary",
+    "memo",
+    "notes",
+    "markdown",
+    "productivity"
   ],
   "categories": [
     "productivity",
@@ -17,7 +18,11 @@
   ],
   "triggers": [
     "帮我记一下",
-    "结束记录"
+    "help me record",
+    "start recording",
+    "结束记录",
+    "end recording",
+    "finish recording"
   ],
   "repository": {
     "type": "git",

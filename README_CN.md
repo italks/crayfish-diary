@@ -90,8 +90,8 @@
 
 - **技能名称**：crayfish-diary
 - **触发词**：
-  - 开始："帮我记一下"
-  - 结束："结束记录"
+  - 开始："帮我记一下", "help me record", "start recording"
+  - 结束："结束记录", "end recording", "finish recording"
 - **文件格式**：Markdown (.md)
 - **脚本语言**：Python 3
 

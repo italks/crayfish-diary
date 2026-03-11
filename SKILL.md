@@ -1,6 +1,6 @@
 ---
 name: crayfish-diary
-description: 龙虾日记技能。当用户说"帮我记一下"、"记录一下"、"写个日记"或类似表达时，在指定空间创建龙虾日记目录，并按年月日的目录结构创建 markdown 文件记录用户内容。触发词包括：记一下、记录、日记、备忘、记下来。
+description: A WorkBuddy skill for quick diary and memo recording with automatic year/month/day directory organization. Supports Chinese and English triggers - start with "帮我记一下" or "help me record", end with "结束记录" or "end recording".
 ---
 
 # 龙虾日记技能
@@ -13,7 +13,7 @@ description: 龙虾日记技能。当用户说"帮我记一下"、"记录一下"
 
 此技能应在以下情况下触发：
 
-- 用户说"帮我记一下..."开始记录，说"结束记录"结束记录
+- 用户说"帮我记一下"或"help me record"开始记录，说"结束记录"或"end recording"结束记录
 - 用户想快速记录想法、待办事项、会议记录等内容
 - 用户需要创建日记或备忘录
 - 用户表达需要记录信息的意图
@@ -22,12 +22,12 @@ description: 龙虾日记技能。当用户说"帮我记一下"、"记录一下"
 
 ### 1. 开始记录
 
-当用户说"帮我记一下"时，技能开始监听并记录后续内容。
+当用户说"帮我记一下"或"help me record"或"start recording"时，技能开始监听并记录后续内容。
 
 1. 确定日记存储位置：
    - 如果用户明确指定了存储位置（如"在 Claw 空间记一下"），则使用指定空间
    - 如果没有指定，默认在当前工作空间创建 `龙虾日记` 目录
-2. 提示用户："好的，请继续说，我会记录下来。说'结束记录'完成记录。"
+2. 提示用户："好的，请继续说，我会记录下来。说'结束记录'或'end recording'完成记录。"
 
 ### 2. 收集内容
 
